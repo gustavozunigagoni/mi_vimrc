@@ -1,4 +1,4 @@
-"adiciona los los numeros de lines
+"adiciona los los ntumeros de lines
 set number
 
 "activa que se pueda posicionar con el mouse
@@ -33,7 +33,9 @@ set relativenumber
 
 "activa la barra en la parte inferior de vim
 set laststatus=2
-"set noshowmode				"modos desactivados
+
+"modos desactivados
+"set noshowmode
 
 call plug#begin ('~/.vim/pugged')
 
@@ -60,7 +62,8 @@ Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
-colorscheme medic_chalk			"esta el la plantilla que se usa
+"esta el la plantilla que se usa
+colorscheme medic_chalk
 
 "Parametros de plug preservim/nerdcommenter'
 
