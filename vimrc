@@ -28,8 +28,8 @@ set showmatch
 "en lugar se usar tab usa espacios y en este caso usa 6 espacios
 set sw=6
 
-"en donde se encuentre el cursor sera la linea cero y contara para arriba y para abajo desde esta linea
-set relativenumber
+"en donde se encuentre el cursor sera la linea cero y contara para arriba y para abajo desde esta linea y cin la opcion number la linea en donde se esta da el numero real
+set number relativenumber
 
 "activa la barra en la parte inferior de vim
 set laststatus=2
