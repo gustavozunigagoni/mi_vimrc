@@ -61,9 +61,6 @@ Plug 'scrooloose/nerdtree'
 "este plug se usa para poder navegar entre pantallas abiertas usando contro l o h 
 Plug 'christoomey/vim-tmux-navigator'
 
-"este es un plug para nanejo de multiples cursores
-Plug 'terryma/vim-multiplecursors'
-
 "este es un plug para la crecion de comentarios
 Plug 'preservim/nerdcommenter'
 
