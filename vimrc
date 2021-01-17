@@ -37,6 +37,14 @@ set laststatus=2
 "modos desactivados
 "set noshowmode
 
+"inserta espacios cada ves que se utiliza tab
+:set expandtab
+
+"numero de espacio que se pondran cada vez que se presione tab
+:set expandtab
+
+"Para cambiar el número de caracteres de espacio insertados para la sangría, use la opción 'shiftwidth':
+
 call plug#begin ('~/.vim/pugged')
 
 "Temas
@@ -59,13 +67,17 @@ Plug 'terryma/vim-multiplecursors'
 "este es un plug para la crecion de comentarios
 Plug 'preservim/nerdcommenter'
 
+"Plus para marcadores de sangria
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
 "esta el la plantilla que se usa
 colorscheme medic_chalk
 
-"Parametros de plug preservim/nerdcommenter'
+"Parametros plug para mostrar marcadores de sangria
+let g:indentLine_char       = '▏'
+let g:indentLine_setConceal = 0
 
 " Agregue espacios después de los delimitadores de comentarios de forma predeterminada, 
 let g:NERDSpaceDelims = 1
