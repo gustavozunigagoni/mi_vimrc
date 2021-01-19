@@ -34,7 +34,7 @@ set number relativenumber
 "activa la barra en la parte inferior de vim
 set laststatus=2
 
-"modos desactivados
+"modos desactivado
 "set noshowmode
 
 "inserta espacios cada ves que se utiliza tab
@@ -42,6 +42,10 @@ set laststatus=2
 
 "numero de espacio que se pondran cada vez que se presione tab
 :set expandtab
+
+"poner un catacter como sustituto del spacio
+set list
+set lcs=space:_
 
 "Para cambiar el número de caracteres de espacio insertados para la sangría, use la opción 'shiftwidth':
 
@@ -74,7 +78,7 @@ colorscheme medic_chalk
 
 "Parametros plug para mostrar marcadores de sangria
 let g:indentLine_char       = '▏'
-let g:indentLine_setConceal = 0
+"let g:indentLine_setConceal = 0
 
 " Agregue espacios después de los delimitadores de comentarios de forma predeterminada, 
 let g:NERDSpaceDelims = 1
