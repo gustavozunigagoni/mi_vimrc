@@ -38,7 +38,7 @@ set laststatus=2
 "set noshowmode
 
 "inserta espacios cada ves que se utiliza tab
-:set expandtab
+:set tabstop=4 shiftwidth=4 expandtab
 
 "numero de espacio que se pondran cada vez que se presione tab
 :set expandtab
