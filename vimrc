@@ -73,6 +73,12 @@ Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
+"Auto completado de tags html en el cado de tener un <ul> vim adicionara es
+"respectivo </ul>
+
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+:ab <<< </<C-x><C-o>
+
 "esta el la plantilla que se usa
 colorscheme medic_chalk
 
@@ -106,6 +112,9 @@ let g:NERDToggleCheckAllLines = 1
 
 "esta opcion es para que el arbol de archivos se cierre en el momento de escoger un archivo
 let  NERDTreeQuitOnOpen=1
+
+"Permitir ver archivos ocultos
+let NERDTreeShowHidden=1
 
 "se define cual sera la tecla lider
 let mapleader=" "
